@@ -58,7 +58,7 @@ customer1.setCustDOB(customer.getCustDOB());
         return ResponseEntity.ok("Data Deleted Successfully");
     }
 
-
+// done
     @GetMapping
     public String sayHello(){
         return "WELCOME TO CSI";
